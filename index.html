@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Tip calculator app | developedbymighty</title>
+</head>
+<body>
+  <div class="project">
+      <!-- Calculator logo -->
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Logo">
+      </div>
+    
+      <!-- The calculator platform-->
+      <section id="white">
+        <div class="white-sect">
+          <div class="white-left">
+            <div class="inputs">
+              <div class="input">
+                <label for="bill">Bill</label>
+                <input id="bill" placeholder="$" type="number">
+              </div>
+        
+              <div class="input">
+                <label for="tip">Select Tip %</label>
+                <div class="percents">
+                  <input id="tip" type="button" value="5%">
+                  <input id="tip" type="button" value="10%">
+                  <input id="tip" type="button" value="15%">
+                  <input id="tip" type="button" value="25%">
+                  <input id="tip" type="button" value="50%">
+                  <input id="custom" type="button" value="Custom">
+                </div>
+              </div>
+        
+              <div class="input" style="margin: 1.5rem 0">
+                <label for="people">Number of People</label>
+                <input id="people" placeholder="People" type="number">
+              </div>
+            </div>
+          </div>
+      
+          <div class="green-right">
+            <div class="displays">
+              <div class="display">
+                <div class="disp-label">
+                  <p class="lab1">Tip Amount</p>
+                  <p class="lab2">/ person</p>
+                </div>
+      
+                <div class="disp-numbers">
+                  <h2>$0.00</h2>
+                </div>
+              </div>
+      
+              <div class="display">
+                <div class="disp-label">
+                  <p class="lab1">Total</p>
+                  <p class="lab2">/ person</p>
+                </div>
+      
+                <div class="disp-numbers">
+                  <h2>$0.00</h2>
+                </div>
+              </div>
+            </div>
+      
+            <input type="button" id="reset" value="RESET">
+          </div>
+        </div>
+      </section>
+  </div>
+</body>
+</html>
