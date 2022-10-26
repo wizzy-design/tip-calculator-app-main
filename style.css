@@ -54,17 +54,28 @@ input{
     margin: .8rem 0;
 }
 
+.calc-input{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    background-color: var(--very-light-grayish-cyan);
+}
+
+.calc-input img{
+    width: 20px;
+}
+
 #bill,
 #people{
     outline: none;
     border: none;
+    text-align: right;
     background-color: var(--very-light-grayish-cyan);
     border-radius: .2rem;
-}
-
-#bill::placeholder,
-#people::placeholder{
-    padding: 0 1rem ;
+    width: 100%;
+    font-size: 20px;
 }
 
 #bill::before{
@@ -188,6 +199,11 @@ input{
         width: 10rem;
         padding-right: 1rem;
         padding-left: 1rem;
+        /* text-align: right; */
+    }
+
+    #tip:hover{
+        background-color: var(--strong-cyan);
     }
 
 
