@@ -3,6 +3,7 @@
 This is my solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
+The site is made for screen sizes 1440px, so you may need to zoom out to see it properly.
 
 ### The challenge
 
