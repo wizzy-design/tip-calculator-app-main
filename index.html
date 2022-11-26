@@ -22,27 +22,28 @@
                 <label for="bill">Bill</label>
                 <div class="calc-input">
                   <img src="./images/icon-dollar.svg" alt="">
-                  <input id="bill" type="number">
+                  <input id="bill" type="number" placeholder="0">
                 </div>
               </div>
         
               <div class="input">
                 <label for="tip">Select Tip %</label>
                 <div class="percents">
-                  <input id="tip" type="button" value="5%">
-                  <input id="tip" type="button" value="10%">
-                  <input id="tip" type="button" value="15%">
-                  <input id="tip" type="button" value="25%">
-                  <input id="tip" type="button" value="50%">
-                  <input id="custom" type="button" value="Custom">
+                  <input class="tip tip1" type="button" value="5%">
+                  <input class="tip" type="button" value="10%">
+                  <input class="tip" type="button" value="15%">
+                  <input class="tip" type="button" value="25%">
+                  <input class="tip" type="button" value="50%">
+                  <input class="custom" type="number" placeholder="Custom">
                 </div>
               </div>
         
               <div class="input" style="margin: 1.5rem 0">
+                <h1 class="error"></h1>
                 <label for="people">Number of People</label>
-                <div class="calc-input">
+                <div class="calc-input" id="person-id">
                   <img src="./images/icon-person.svg" alt="">
-                  <input id="people" type="number">
+                  <input id="people" type="number" placeholder="0">
                 </div>
               </div>
             </div>
@@ -57,7 +58,7 @@
                 </div>
       
                 <div class="disp-numbers">
-                  <h2>$0.00</h2>
+                  <h2 class="disp1">$0.00</h2>
                 </div>
               </div>
       
@@ -68,7 +69,7 @@
                 </div>
       
                 <div class="disp-numbers">
-                  <h2>$0.00</h2>
+                  <h2 class="disp2">$0.00</h2>
                 </div>
               </div>
             </div>
@@ -78,5 +79,8 @@
         </div>
       </section>
   </div>
+
+  <!-- Javascript -->
+  <script src="./app.js"></script>
 </body>
 </html>
